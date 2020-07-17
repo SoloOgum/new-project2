@@ -1,0 +1,104 @@
+.background  {
+    background-color: #3B6FFF;
+    height: 630px;
+    margin-top: 65px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 40px 0px #B3D2FD;
+}
+
+input[type=radio]{
+    /* position: absolute; */
+    /* visibility: hidden; */
+    background-color: transparent;
+    border: 5px solid white;
+    outline: white;
+
+  }
+
+  ::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    text-align: left;
+ }
+
+ /* input[type=radio]
+{
+    background-color:transparent;
+    background-image:none;
+    -webkit-backface-visibility: hidden;
+} */
+
+input[type=radio]:checked ~ .check {
+    border: 5px solid white;
+}
+
+input[type=radio]:checked ~ .check::before {
+    background: white;
+}
+
+input[type=radio]:checked ~ .check::before {
+    color: white;
+}
+
+.textwhite {
+    color: white;
+}
+
+.textwhiteheader {
+    color: white;
+    font-weight: 50px;
+}
+
+.imcolor {
+    color: #F0F6FF;
+    padding-right: 15px;
+}
+
+.radiopadding {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* input:focus, textarea:focus, select:focus {
+    outline: none !important;
+    padding-left: 50px;
+} */
+
+
+.margins {
+    margin-top: 50px;
+}
+
+.formmargin {
+    margin-top: 80px;
+}
+
+.textboxmargin {
+    margin-top: 35px;
+    outline: none;
+}
+
+.textboxcolor {
+    border-color: transparent;
+    border-bottom: 1px solid white;
+    padding-right: 110px;
+    margin-top: 10px;
+}
+
+.btn-color {
+    background-color: #3476E9;
+    color: white;
+    float: right;
+    margin-top: 80px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* border-radius: 40px; */
+}
+
+img {
+    margin-left: 70px;
+}
